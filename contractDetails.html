@@ -1,0 +1,141 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Resume Form</title>
+        <link href="style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body style="padding-top: 71px;">
+     <!-- Header -->
+        <div class="navbar navbar navbar-fixed-top">
+            <div class="container-fluid" style="height: 70px;">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle navbutton" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <div class="sidebutton" onclick="toggleSidebar()" >
+                        <span></span>
+                        <span></span>
+                        <span></span> 
+                    </div>
+                    <div >
+                    <a class="navbar-brand" href="index.html">
+                        <img src="TalentFore-Logo_01.png" class="img1" >    
+                    </a>
+                    </div>    
+                </div>
+               
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right" style="margin-top: 15px;float: right">
+                        
+                        <li><a href="login.html" class="header_links"><span class="glyphicon glyphicon-phone"></span> Contact Us</a></li>
+                        <li><a href="login.html" class="header_links"><span class="glyphicon glyphicon-log-out"></span> Log out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--Header end--->
+        <div class="container">
+            <div class="row">
+              <div class="col-xs-2">    
+                <div id="sidebar">
+                    <ul>
+                         <li>
+                            <a id="link8" href="index.html">
+                            <span class="glyphicon glyphicon-dashboard dash_icon"></span> 
+                            <span class="dash_text">&nbsp;&nbsp;Overview</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a id="link1" href="allJobs.html">
+                            <span class="glyphicon glyphicon-dashboard dash_icon"  ></span> 
+                            <span class="dash_text" >&nbsp;&nbsp;All Jobs</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a id="link2" href="myJobs.html"> 
+                                <span class="glyphicon glyphicon-calendar dash_icon" ></span>
+                                <span class="dash_text" >&nbsp;&nbsp;My Jobs</span> 
+                            </a>
+                        </li>
+                        <li>
+                            <a id="link3" href="applications.html"> 
+                                <span class="glyphicon glyphicon-cog dash_icon"></span> 
+                                <span class="dash_text" >&nbsp;&nbsp;Applications</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a id="link4" href="assessment.html"> 
+                                <span class="glyphicon glyphicon-cog dash_icon" ></span> 
+                                <span class="dash_text" >&nbsp;&nbsp;Assessment</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a id="link5" href="companyProfile.html">
+                            <span class="glyphicon glyphicon-dashboard dash_icon" ></span> 
+                            <span class="dash_text" >&nbsp;&nbsp;About Company</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a id="link6" href="contractDetails.html">
+                            <span class="glyphicon glyphicon-dashboard dash_icon" style="color:#AA1E2D"></span> 
+                            <span class="dash_text" style="color:#AA1E2D">&nbsp;&nbsp;Contract Details</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a id="link7" href="MyProfile.html">
+                            <span class="glyphicon glyphicon-dashboard dash_icon"></span> 
+                            <span class="dash_text">&nbsp;&nbsp;My Profile</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                </div>  
+                <div class="col-xs-10 rightpanel" style="margin-top: 10px;">
+                    <div class="rightarea">
+                      <h6 style="display: inline-block" class="conDetails">Date Of Approval:-</h6>    
+                        <h6 style="display: inline-block;margin-left: 70px;" class="conDetails">Valid Till:-</h6>  
+                        <div class="row aboutcompany aboutcompany1" style="padding: 5px;" >
+                            <div style="padding: 3px;margin-bottom: 7px;">
+                            <h4>Company SPOC(Admin)</h4>
+                            <h6>Full Name: <span><input type="text"></span></h6>
+                            <h6>Email: <span><input type="text"></span> </h6>
+                            <h6>Mobile: <span><input type="text"></span> </h6>
+                            <h6>Alternate Number: <span><input type="text"></span></h6>
+                            </div>    
+                            
+                            <div style="padding: 3px;margin-bottom: 7px;">
+                            <h4>HR Head</h4>
+                            <h6>Full Name: <span><input type="text"></span> </h6>
+                            <h6>Email: <span><input type="text"></span> </h6>
+                            <h6>Mobile: <span><input type="text"></span> </h6>
+                            </div> 
+                            
+                            <div style="padding: 3px;margin-bottom: 7px;">
+                            <h4>Financial SPOC </h4>
+                            <h6>Full Name: <span><input type="text"></span> </h6>
+                            <h6>Email: <span><input type="text"></span> </h6>
+                            <h6>Mobile: <span><input type="text"></span> </h6>
+                            </div> 
+                            
+                            <div style="padding: 3px;margin-bottom: 7px;">
+                            <h4>Authorized Signatory</h4>
+                            <h6>Full Name: <span><input type="text"></span> </h6>
+                            <h6>Email: <span><input type="text"></span> </h6>
+                            <h6>Mobile: <span><input type="text"></span> </h6>
+                            </div> 
+                            
+                            
+                        </div> 
+                            
+    
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </body>    
